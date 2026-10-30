@@ -1,0 +1,6 @@
+{
+  "title": "Sources of Error",
+  "content": "1. Backlash error in the travelling microscope screw, if the direction of motion is reversed mid-measurement.\n\n2. Imperfect point contact between the lens and plate (due to dust or a slightly flattened lens surface), which causes a systematic diameter offset — largely cancelled out by the differential (D²(n+m) − D²(n)) method, but not entirely if severe.\n\n3. Non-monochromatic or impure sodium light, if the lamp has not fully warmed up and stabilized.\n\n4. Parallax error while reading the vernier scale.\n\n5. An incorrect independently-measured value of R, which directly and linearly affects the final wavelength — this is one of the most common causes of a very large percentage error.\n\n6. An inconsistent or incorrectly computed least count applied across different readings.\n\n7. Eccentricity of the rings due to a lens surface imperfection, causing asymmetry between the left-hand and right-hand readings.",
+  "keywords": ["error", "errors", "sources of error", "why is my error high", "why is my percentage error large", "systematic error", "random error"],
+  "related_topics": ["precautions", "calculations", "graph"]
+}

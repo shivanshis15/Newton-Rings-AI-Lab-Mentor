@@ -1,0 +1,6 @@
+{
+  "title": "Principle",
+  "content": "The principle behind this experiment is thin-film interference by division of amplitude. When monochromatic light strikes the air film formed between the plano-convex lens and the glass plate, part of the light is reflected from the top of the air film (bottom surface of the lens) and part from the bottom of the air film (top surface of the glass plate). These two reflected waves interfere with each other.\n\nFor a dark ring (destructive interference) in the reflected system, the condition is:\n2t = n·λ\nwhere t is the air-film thickness at that ring's location, n is an integer (0, 1, 2, 3, ...), and λ is the wavelength of light used.\n\nUsing simple geometry of a lens surface in contact with a flat plate, the film thickness at a radial distance r from the center is:\nt = r² / 2R\nwhere R is the radius of curvature of the lens's curved surface.\n\nCombining these two relations gives r² = nλR, and since diameter D = 2r, this leads directly to D² = 4nλR — the central relation on which both the algebraic and graphical methods of this experiment are based.",
+  "keywords": ["principle", "division of amplitude", "dark ring condition", "2t = nlambda", "film thickness", "geometry", "r squared over 2r"],
+  "related_topics": ["theory", "formulae", "calculations"]
+}

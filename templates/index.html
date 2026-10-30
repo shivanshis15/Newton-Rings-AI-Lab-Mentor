@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Newton's Rings AI Lab Mentor</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+
+<div class="app-container">
+
+    <!-- ============ SIDEBAR ============ -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <span class="logo-icon">🔬</span>
+            <div class="logo-text">
+                <h1>Newton's Rings</h1>
+                <p>AI Lab Mentor</p>
+            </div>
+        </div>
+
+        <div class="sidebar-section-label">Explore Topics</div>
+        <nav class="sidebar-nav">
+            <button class="nav-btn" data-topic="theory"><span>📘</span> Theory</button>
+            <button class="nav-btn" data-topic="apparatus"><span>🧰</span> Apparatus</button>
+            <button class="nav-btn" data-topic="principle"><span>💡</span> Principle</button>
+            <button class="nav-btn" data-topic="formulae"><span>➗</span> Formulae</button>
+            <button class="nav-btn" data-topic="procedure"><span>📋</span> Procedure</button>
+            <button class="nav-btn" data-topic="observations"><span>📊</span> Observations</button>
+            <button class="nav-btn" data-topic="calculations"><span>🧮</span> Calculations</button>
+            <button class="nav-btn" data-topic="graph"><span>📈</span> Graph Plotting</button>
+            <button class="nav-btn" data-topic="precautions"><span>⚠️</span> Precautions</button>
+            <button class="nav-btn" data-topic="errors"><span>🔎</span> Sources of Error</button>
+            <button class="nav-btn" data-topic="applications"><span>🚀</span> Applications</button>
+            <button class="nav-btn" data-topic="learning_outcomes"><span>🎯</span> Learning Outcomes</button>
+        </nav>
+
+        <div class="sidebar-section-label">Tools</div>
+        <nav class="sidebar-nav">
+            <button class="nav-btn special-btn" id="vivaBtn"><span>🎓</span> Start Viva Mode</button>
+            <button class="nav-btn special-btn" id="calcBtn"><span>🧮</span> Open Calculator</button>
+        </nav>
+
+        <div class="sidebar-footer">
+            <p>Running 100% locally · No internet required</p>
+        </div>
+    </aside>
+
+    <!-- ============ MAIN CHAT AREA ============ -->
+    <main class="main-area">
+
+        <header class="chat-header">
+            <button class="hamburger" id="hamburgerBtn">☰</button>
+            <div class="header-title">
+                <h2>Newton's Rings Lab Mentor</h2>
+                <p id="statusLine"><span class="status-dot"></span> Online · Ready to help</p>
+            </div>
+            <button class="end-viva-btn hidden" id="endVivaBtn">End Viva</button>
+        </header>
+
+        <section class="chat-window" id="chatWindow">
+            <!-- Messages injected here by chat.js -->
+        </section>
+
+        <div class="suggestions-row" id="suggestionsRow"></div>
+
+        <footer class="chat-input-bar">
+            <input type="text" id="userInput" placeholder="Ask me anything about Newton's Rings..." autocomplete="off">
+            <button id="sendBtn" title="Send">➤</button>
+        </footer>
+    </main>
+</div>
+
+<!-- ============ CALCULATOR MODAL ============ -->
+<div class="modal-overlay hidden" id="calcModal">
+    <div class="modal-box">
+        <div class="modal-header">
+            <h3>🧮 Wavelength Calculator</h3>
+            <button class="modal-close" id="closeCalcModal">✕</button>
+        </div>
+        <div class="modal-body">
+            <p class="modal-hint">Enter your observation values to compute the wavelength of sodium light.</p>
+
+            <label>D²₍n+m₎ (cm²)</label>
+            <input type="number" step="any" id="calc_d_np_m" placeholder="e.g. 0.408">
+
+            <label>D²ₙ (cm²)</label>
+            <input type="number" step="any" id="calc_d_n" placeholder="e.g. 0.334">
+
+            <label>m (ring interval)</label>
+            <input type="number" step="any" id="calc_m" placeholder="e.g. 4">
+
+            <label>R — radius of curvature (cm)</label>
+            <input type="number" step="any" id="calc_R" placeholder="e.g. 90">
+
+            <button class="calc-submit-btn" id="calcSubmitBtn">Calculate Wavelength</button>
+
+            <div class="calc-result hidden" id="calcResult"></div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>

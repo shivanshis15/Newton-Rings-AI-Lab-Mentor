@@ -1,0 +1,6 @@
+{
+  "title": "Calculations",
+  "content": "Using representative data (m = 4, R = 90 cm, Mean D²(n+m) − D²(n) = 0.08375 cm²):\n\nλ1 = 0.08375 / (4 × 4 × 90) = 0.08375 / 1440 = 5.815 × 10⁻⁵ cm = 5815.97 Å\n\nFrom the D² vs. ring-number graph, slope = 0.0206 cm² (over the plotted ring-number range)\n\nλ2 = slope / (4R) = 0.0206 / (4 × 90) = 5.729 × 10⁻⁵ cm = 5729.17 Å\n\nMean experimental wavelength:\nλ = (λ1 + λ2) / 2 = (5815.97 + 5729.17) / 2 = 5772.57 Å\n\nPercentage error:\n% error = |5893 − 5772.57| / 5893 × 100 ≈ 2.04%\n\nA result within about 5% of the standard value indicates a well-executed experiment. A much larger error (10%+) usually points to an incorrect R value or an inconsistent least count, and should be investigated rather than accepted as-is. You can use the built-in Calculator tool in the sidebar to run this same calculation on your own observation data.",
+  "keywords": ["calculation", "sample calculation", "worked example", "how to calculate wavelength", "compute lambda", "numerical example"],
+  "related_topics": ["formulae", "graph", "observations"]
+}

@@ -1,0 +1,277 @@
+[
+  {
+    "id": 1,
+    "level": "basic",
+    "question": "What is Newton's Rings phenomenon, and what type of interference is responsible for it?",
+    "answer": "When a plano-convex lens rests on a plane glass plate, a thin air film of varying thickness forms between them. Light reflected from the top of the plate and the bottom of the lens interferes, producing concentric bright and dark rings. This is due to interference in a thin film of non-uniform thickness (division of amplitude interference).",
+    "keywords": ["air film", "interference", "thin film", "concentric", "division of amplitude"],
+    "hints": [
+      "Think about what forms between the curved lens and the flat plate.",
+      "The rings come from light waves reinforcing or cancelling — what is that phenomenon called?"
+    ]
+  },
+  {
+    "id": 2,
+    "level": "basic",
+    "question": "Why do Newton's Rings appear as concentric circles rather than straight lines?",
+    "answer": "The air film has the same thickness along any circle centered on the point of contact, since the lens surface is spherical. Since path difference depends only on thickness, all points of equal thickness and hence equal path difference form a circle, not a line.",
+    "keywords": ["equal thickness", "circle", "spherical", "path difference", "contact point"],
+    "hints": [
+      "Think about the shape of the lens surface — is it flat or curved?",
+      "Points at the same distance from the center of a sphere lie on what shape?"
+    ]
+  },
+  {
+    "id": 3,
+    "level": "basic",
+    "question": "Why is the central spot in the ring pattern dark and not bright?",
+    "answer": "At the center, the air-film thickness is essentially zero, so geometrically there's no path difference. But light reflecting off the glass plate (denser medium) undergoes a phase change of pi (equivalent to lambda/2), while light reflecting off the lens's lower surface does not. This extra half-wavelength shift causes destructive interference at the center, making it dark.",
+    "keywords": ["phase change", "denser medium", "half wavelength", "destructive interference", "zero thickness"],
+    "hints": [
+      "Is the path difference really zero at the very center? What else could add an extra shift?",
+      "Think about what happens when light reflects off a denser medium versus a rarer one."
+    ]
+  },
+  {
+    "id": 4,
+    "level": "basic",
+    "question": "What is the source of light used in this experiment, and why must it be monochromatic?",
+    "answer": "A sodium vapor lamp, which emits nearly monochromatic yellow light. Monochromatic light is needed because interference fringes are wavelength-dependent; different wavelengths would produce overlapping ring systems of different sizes, blurring the pattern.",
+    "keywords": ["sodium lamp", "monochromatic", "single wavelength", "overlapping rings"],
+    "hints": [
+      "What common lab lamp produces a single, pure color of light?",
+      "What would happen if multiple wavelengths of light were used at once?"
+    ]
+  },
+  {
+    "id": 5,
+    "level": "basic",
+    "question": "What is meant by 'least count' of a travelling microscope, and how is it calculated?",
+    "answer": "Least count is the smallest distance the microscope can measure reliably. It's calculated as LC = M/N, where M is the value of one main scale division and N is the total number of divisions on the vernier scale.",
+    "keywords": ["smallest measurable", "main scale division", "vernier scale", "M/N", "LC"],
+    "hints": [
+      "It's related to the smallest reading the instrument can resolve.",
+      "It's a ratio involving the main scale division value and the vernier scale divisions."
+    ]
+  },
+  {
+    "id": 6,
+    "level": "basic",
+    "question": "Why do we take two readings (R1 and R2) for each ring instead of one?",
+    "answer": "Each ring is a circle, so it has two edges on the microscope's line of travel: one on the left, one on the right of the center. Diameter D = |R1 − R2|. A single reading would only give the ring's position, not its diameter.",
+    "keywords": ["left right", "diameter", "two edges", "R1 R2"],
+    "hints": [
+      "A ring is a circle — how many edges does the microscope cross as it moves across it?",
+      "What quantity do we actually need for the formula — position, or diameter?"
+    ]
+  },
+  {
+    "id": 7,
+    "level": "basic",
+    "question": "What does the symbol R represent in the working formula, and how would you measure it independently?",
+    "answer": "R is the radius of curvature of the curved surface of the plano-convex lens. It can be measured independently using a spherometer.",
+    "keywords": ["radius of curvature", "spherometer", "lens"],
+    "hints": [
+      "It's a property of the lens's curved surface.",
+      "What instrument specifically measures curvature of lens surfaces?"
+    ]
+  },
+  {
+    "id": 8,
+    "level": "basic",
+    "question": "Why should the microscope be moved in only one direction while taking a series of readings?",
+    "answer": "Reversing direction introduces backlash error, a small lost motion in the screw mechanism when its direction is reversed, which throws off the reading. Moving in one direction only avoids this error entirely.",
+    "keywords": ["backlash error", "screw mechanism", "one direction", "lost motion"],
+    "hints": [
+      "Think about mechanical play or 'looseness' in a screw when its direction reverses.",
+      "This type of error has a specific name involving the word 'lash'."
+    ]
+  },
+  {
+    "id": 9,
+    "level": "basic",
+    "question": "What would happen to the ring pattern if you used white light instead of sodium light?",
+    "answer": "Each wavelength in white light produces its own ring system of a slightly different size. Near the center a few colored rings may be seen, but farther out the rings of different colors overlap and wash out into a uniform white pattern; clear rings are only seen very close to the center.",
+    "keywords": ["colored rings", "overlap", "wash out", "white pattern", "near center only"],
+    "hints": [
+      "White light is a mixture of many wavelengths — what would each wavelength produce on its own?",
+      "Think about what happens far from the center versus very close to it."
+    ]
+  },
+  {
+    "id": 10,
+    "level": "intermediate",
+    "question": "Derive the condition for a dark ring in this experiment, starting from the path difference for reflected light.",
+    "answer": "For a film of thickness t viewed at near-normal incidence, the geometric path difference between the two reflected rays is 2t. Since one reflection (at the glass plate) undergoes a pi phase shift and the other doesn't, an extra lambda/2 is added, giving total path difference = 2t + lambda/2. For destructive interference (dark ring): 2t + lambda/2 = (2n+1)lambda/2, which simplifies to 2t = n·lambda, where n = 0, 1, 2, 3, ...",
+    "keywords": ["2t", "path difference", "pi phase shift", "destructive interference", "2t = nlambda"],
+    "hints": [
+      "Start with the basic geometric path difference for a thin film: what is it in terms of t?",
+      "Don't forget to add the extra half-wavelength shift from reflection at the denser medium before setting the destructive interference condition."
+    ]
+  },
+  {
+    "id": 11,
+    "level": "intermediate",
+    "question": "Why does the diameter of successive rings not increase in equal steps, even though ring order increases uniformly?",
+    "answer": "Because D squared (not D) is proportional to ring number n (D squared = 4n·lambda·R). Since D is proportional to the square root of n, equal increases in n give progressively smaller increases in D; rings get closer together as n increases.",
+    "keywords": ["D squared proportional", "square root", "closer together", "not linear"],
+    "hints": [
+      "Which quantity is actually linear with ring number: D, or D squared?",
+      "If D is proportional to the square root of n, what happens to spacing as n grows?"
+    ]
+  },
+  {
+    "id": 12,
+    "level": "intermediate",
+    "question": "Why is D² plotted against ring number, and why should this graph be a straight line?",
+    "answer": "From D² = 4n·lambda·R, D² is directly proportional to n, with slope 4·lambda·R. Since this is a linear relation (y = D², x = n), the graph must be a straight line, and its slope gives lambda directly once R is known.",
+    "keywords": ["D squared proportional to n", "slope 4 lambda R", "linear relation", "straight line"],
+    "hints": [
+      "Look at the relation D squared = 4n·lambda·R — is this linear in n?",
+      "What does the slope of this line represent physically?"
+    ]
+  },
+  {
+    "id": 13,
+    "level": "intermediate",
+    "question": "Why is the differential formula (D²(n+m) − D²(n)) used instead of directly using a single ring's diameter with lambda = D²/4nR?",
+    "answer": "Using a single ring assumes perfect point contact between lens and plate (zero thickness exactly at the center), which is rarely true in practice; dust or slight lens flattening shifts every diameter by a constant offset. Taking the difference between two rings cancels this constant offset, since it appears equally in both D² terms and subtracts out.",
+    "keywords": ["constant offset", "imperfect contact", "cancels out", "dust or flattening"],
+    "hints": [
+      "Is the lens-plate contact ever perfectly at a single point in real life?",
+      "What mathematical operation removes a constant error that's added equally to two values?"
+    ]
+  },
+  {
+    "id": 14,
+    "level": "intermediate",
+    "question": "What error would arise if the lens and plate were not in perfect point contact, and how does the formula used here compensate for it?",
+    "answer": "Imperfect contact adds a constant, unknown extra thickness at every point, which would make a single-ring calculation of lambda wrong. The differential formula (D²(n+m) − D²(n)) removes this constant automatically because it cancels when you subtract the two ring's D² values.",
+    "keywords": ["constant extra thickness", "subtract cancels", "single ring wrong"],
+    "hints": [
+      "Think about what a small gap at the center (instead of true zero) does to every ring's measured diameter equally.",
+      "What happens to a constant error when you subtract two values that both contain it?"
+    ]
+  },
+  {
+    "id": 15,
+    "level": "intermediate",
+    "question": "If your calculated lambda came out significantly larger than 5893 Angstrom, what would be your first two hypotheses about where the error lies?",
+    "answer": "First, that the value of R used is too small (lambda is inversely proportional to R, so an undersized R inflates lambda). Second, that the least count or a total-reading calculation was applied inconsistently, making the measured D² differences too large.",
+    "keywords": ["R too small", "inversely proportional", "least count inconsistent"],
+    "hints": [
+      "Look at the formula — which quantity, if too small, would make lambda too large?",
+      "Besides R, what else feeds directly into every diameter measurement?"
+    ]
+  },
+  {
+    "id": 16,
+    "level": "intermediate",
+    "question": "Why is backlash error significant in this experiment, and how exactly does moving the microscope in a single direction eliminate it?",
+    "answer": "The travelling microscope's screw mechanism has a small mechanical play; when you reverse the direction of the screw, it doesn't immediately engage the carriage, so the first few turns don't correspond to real distance moved, corrupting the reading. Moving in only one direction throughout a set of readings means this play is only encountered once at the very start, not repeatedly mid-measurement.",
+    "keywords": ["mechanical play", "screw carriage", "not engage immediately", "one direction throughout"],
+    "hints": [
+      "Think about what happens inside a screw thread mechanically right when you reverse its rotation.",
+      "If the play is only encountered once at the start, does it affect the differences between later readings?"
+    ]
+  },
+  {
+    "id": 17,
+    "level": "intermediate",
+    "question": "How would introducing a liquid between the lens and plate change the ring diameters, and how could this be used to find the liquid's refractive index?",
+    "answer": "Filling the air gap with a liquid of refractive index mu reduces the ring diameters, since the optical path in the liquid is mu times the physical path. The relation becomes mu = D squared(air) / D squared(liquid) for the same ring order, so measuring rings with and without the liquid and comparing D² values gives mu directly.",
+    "keywords": ["refractive index mu", "smaller diameters", "D squared air over D squared liquid"],
+    "hints": [
+      "Would the rings get bigger or smaller if the medium between lens and plate had a higher refractive index than air?",
+      "Consider comparing D squared values measured with air versus with the liquid, for the same ring."
+    ]
+  },
+  {
+    "id": 18,
+    "level": "intermediate",
+    "question": "Explain, using the lens-plate geometry, why film thickness t = r squared / 2R for small angles.",
+    "answer": "By the geometry of a circle of radius R: for a point at horizontal distance r from the point of contact, the vertical gap (thickness) t satisfies R squared = (R − t) squared + r squared. Expanding and neglecting t squared (since t is extremely small compared to R) gives r squared is approximately 2Rt, or t = r squared / 2R.",
+    "keywords": ["R squared = (R-t) squared + r squared", "neglect t squared", "small compared to R"],
+    "hints": [
+      "Try drawing a right triangle formed by R, (R−t), and r using the circle's geometry.",
+      "Once you expand (R−t) squared, which term can be safely neglected because t is so small?"
+    ]
+  },
+  {
+    "id": 19,
+    "level": "advanced",
+    "question": "Derive the complete relationship between ring diameter, ring order, wavelength, and radius of curvature from first principles.",
+    "answer": "Start from the dark-ring condition 2t = n·lambda. From the lens geometry, t = r squared / 2R, where r is the ring's radius. Substituting: 2(r squared/2R) = n·lambda, so r squared = n·lambda·R. Since diameter D = 2r, D squared = 4r squared = 4n·lambda·R. This gives D squared = 4n·lambda·R, confirming D squared is directly proportional to n, with constant of proportionality 4·lambda·R, which is the basis for both the algebraic and graphical methods.",
+    "keywords": ["2t = n lambda", "t = r squared over 2R", "D squared = 4n lambda R", "substitute"],
+    "hints": [
+      "Start from the two relations you already know: the dark-ring condition and the thickness-geometry relation.",
+      "Substitute the geometry expression for t directly into the interference condition, then relate r to D."
+    ]
+  },
+  {
+    "id": 20,
+    "level": "advanced",
+    "question": "If the plano-convex lens were replaced by a lens of much smaller radius of curvature, how would the ring spacing and the required precision of measurement change?",
+    "answer": "Since D squared = 4n·lambda·R, a smaller R gives smaller D squared for the same n; the rings become smaller and more closely spaced. This demands a microscope of finer least count and more careful focusing and reading to resolve and measure the rings accurately, since measurement errors have a proportionally larger effect on a smaller diameter.",
+    "keywords": ["smaller R smaller rings", "closer spacing", "finer least count needed"],
+    "hints": [
+      "Look at how D squared depends on R in the formula — what happens to D squared if R shrinks?",
+      "If rings become smaller and closer, what does that demand of your measuring instrument?"
+    ]
+  },
+  {
+    "id": 21,
+    "level": "advanced",
+    "question": "In practice, rings are sometimes slightly elliptical rather than perfectly circular. What does this indicate, and how would you verify and account for it?",
+    "answer": "Elliptical rings indicate that the lens surface is not perfectly spherical (it may be astigmatic, or unevenly pressed against the plate), so the radius of curvature differs slightly along different directions. This can be verified by measuring ring diameters along two perpendicular directions (horizontal and vertical); if they differ consistently, take an average of the two directions' results, or report R along each axis, rather than assuming a single circular R.",
+    "keywords": ["not perfectly spherical", "astigmatic", "two perpendicular directions", "average both directions"],
+    "hints": [
+      "What geometric assumption about the lens surface would be violated if rings aren't perfect circles?",
+      "How could measuring along two different directions help you detect and correct for this?"
+    ]
+  },
+  {
+    "id": 22,
+    "level": "advanced",
+    "question": "Explain quantitatively why the graphical (slope) method generally gives a more reliable estimate than using only one pair of rings via the algebraic formula.",
+    "answer": "The algebraic method uses only two data points (n and n+m), so any random reading error in either directly and fully affects the result. The graphical method uses all measured points together; the best-fit line effectively averages out random errors across every ring measured, so the slope, and hence lambda2, is less sensitive to any single noisy reading.",
+    "keywords": ["only two points", "averages out random errors", "best fit line all points", "less sensitive"],
+    "hints": [
+      "How many data points does the algebraic formula actually use, compared to the graphical method?",
+      "What does a best-fit line do to random scatter across many points, compared to relying on just two?"
+    ]
+  },
+  {
+    "id": 23,
+    "level": "advanced",
+    "question": "Sodium light is a doublet (approximately 5890 Angstrom and 5896 Angstrom). Under what conditions would this become observable as a 'disappearance of rings' effect, and why?",
+    "answer": "Each wavelength produces its own set of rings, slightly offset in diameter because they satisfy 2t = n·lambda for slightly different lambda. At low ring order the two systems nearly coincide and rings look sharp, but as ring order (and hence t) increases, the two sets of rings gradually go out of step. At certain higher orders, a bright ring of one wavelength coincides with a dark ring of the other, so the pattern appears to wash out or vanish, then reappears at yet higher order as they realign. This requires viewing many rings at large enough thickness for the two wavelengths' fringe orders to have drifted apart by roughly half a fringe.",
+    "keywords": ["two wavelengths drift apart", "bright coincides with dark", "washes out", "higher ring order", "reappears"],
+    "hints": [
+      "Think about two very slightly different wavelengths each satisfying their own dark-ring condition — do their rings stay perfectly aligned forever?",
+      "At what point would a bright ring from one wavelength start to overlap a dark ring from the other?"
+    ]
+  },
+  {
+    "id": 24,
+    "level": "advanced",
+    "question": "How would you experimentally distinguish an error from an incorrect R versus systematic vernier misreading, using only the shape and intercept of your D² vs. ring-number graph?",
+    "answer": "An incorrect R does not distort the graph's shape at all; the points still lie on a good straight line, only the slope-to-lambda conversion is wrong, since R appears only in the final division, not in the plotted data itself. A systematic vernier misreading, on the other hand, typically shows up as a poor-fitting line, unusual scatter, or a slope that doesn't match theory even after correct R is applied, because it directly corrupts each measured D². So a clean straight line with a suspicious lambda points to R; a messy or oddly-behaved graph points to a reading problem.",
+    "keywords": ["clean line wrong R", "messy line reading error", "R only in final division", "corrupts D squared directly"],
+    "hints": [
+      "Does R actually appear anywhere in the plotted (ring number, D squared) data points themselves, or only later?",
+      "What would a reading error, versus a wrong constant, each do to the shape versus the slope of the graph?"
+    ]
+  },
+  {
+    "id": 25,
+    "level": "advanced",
+    "question": "How would ring conditions and the central spot differ in transmitted light versus reflected light?",
+    "answer": "In transmitted light, there's no pi phase shift at the glass-plate reflection contributing to the transmitted beam, so the path-difference condition flips relative to reflected light: where reflected light gives a dark ring, transmitted light gives a bright ring, and vice versa. Consequently, the central spot, dark in reflected light, appears bright in transmitted light, since the conditions for constructive and destructive interference are exactly complementary between the two viewing modes.",
+    "keywords": ["complementary", "transmitted bright reflected dark", "no phase shift in transmission", "central spot bright"],
+    "hints": [
+      "Does the pi phase shift that occurs on reflection also apply to the light that passes straight through?",
+      "If the conditions are complementary, what would appear at the center in transmitted light, given that it's dark in reflected light?"
+    ]
+  }
+]

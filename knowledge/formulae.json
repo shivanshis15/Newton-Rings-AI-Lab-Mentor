@@ -1,0 +1,6 @@
+{
+  "title": "Formulae",
+  "content": "Least count of the travelling microscope:\nLC = M / N\nwhere M = value of 1 main scale division, N = total number of divisions on the vernier scale.\n\nTotal reading on either side:\nTR = MSR + (VSR × LC)\n\nRing diameter:\nD = |R1 − R2|\nwhere R1 and R2 are the total readings on the left-hand and right-hand sides of the ring.\n\nWorking (algebraic) formula for wavelength:\nλ1 = [D²(n+m) − D²(n)] / (4 · m · R)\nwhere m is the fixed ring-number interval between two paired rows (commonly 4), and R is the radius of curvature of the lens.\n\nGraphical formula for wavelength:\nλ2 = (slope of the D² vs. ring-number graph) / (4R)\n\nFinal result (average of both methods):\nλ = (λ1 + λ2) / 2\n\nPercentage error:\n% error = |Standard value − Experimental value| / Standard value × 100\nStandard value of sodium light = 5893 Angstrom (the mean of the sodium doublet lines at 5890 Å and 5896 Å).",
+  "keywords": ["formula", "formulae", "equation", "least count formula", "wavelength formula", "percentage error formula", "d squared formula", "lambda formula"],
+  "related_topics": ["calculations", "principle", "graph"]
+}

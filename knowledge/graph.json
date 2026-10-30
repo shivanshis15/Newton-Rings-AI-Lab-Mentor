@@ -1,0 +1,6 @@
+{
+  "title": "Graph Plotting Instructions",
+  "content": "1. Take 'Number of Rings' on the X-axis and 'D² (cm²)' on the Y-axis.\n\n2. Choose a scale so the plotted points occupy most of the graph sheet — for example, 1 large square = 2 rings on the X-axis, and 1 large square = 0.05 cm² on the Y-axis, adjusted to fit your actual data range.\n\n3. Plot all five (ring number, D²) points and draw the best-fit straight line through them. The line does not need to pass through the origin — a nonzero intercept simply reflects imperfect point contact between the lens and plate, and does not affect the final wavelength calculation.\n\n4. Choose two points that are well separated on the best-fit line itself (not two raw data points) to calculate the slope:\nslope = (y2 − y1) / (x2 − x1)\n\n5. Use this slope in λ2 = slope / (4R) to obtain the graphical estimate of wavelength.\n\nA good graph should show all points lying close to a single straight line. Noticeable scatter usually indicates a reading error somewhere in Table 1.1, while a clean line with an unusual slope usually points to an incorrect value of R.",
+  "keywords": ["graph", "plotting", "d squared vs ring number", "slope", "best fit line", "x axis y axis", "graph paper"],
+  "related_topics": ["calculations", "formulae", "observations"]
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Observation Tables",
+  "content": "Table 0 — Least Count of Travelling Microscope\nValue of 1 Main Scale Division (M) = ____ cm\nTotal number of Vernier divisions (N) = ____\nLeast Count (LC = M/N) = ____ cm\n\nTable 1.1 — Observation for Ring Diameter\nColumns: S. No. | No. of Rings | Left MSR | Left VSR | Left Total (R1) | Right MSR | Right VSR | Right Total (R2) | Diameter D = |R1−R2| | D²\nTypically recorded for ring numbers 20, 16, 12, 8, and 4.\n\nTable 1.2 — Measurement of Diameter of Rings\nColumns: S. No. | (n+m) | n | D²(n+m) in cm² | D²(n) in cm² | D²(n+m) − D²(n) in cm²\nRows pair up ring numbers at a fixed interval m, e.g. 20 & 16, 16 & 12, 12 & 8, 8 & 4.\nThe final row records the mean of the D² difference column, which is used directly in the wavelength formula.",
+  "keywords": ["observation", "observation table", "table 1.1", "table 1.2", "msr", "vsr", "recording data", "data table"],
+  "related_topics": ["procedure", "calculations", "graph"]
+}

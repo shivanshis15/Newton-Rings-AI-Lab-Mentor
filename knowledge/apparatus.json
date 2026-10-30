@@ -1,0 +1,6 @@
+{
+  "title": "Apparatus Required",
+  "content": "The following apparatus is required to perform the Newton's Rings experiment:\n\n1. Sodium vapour lamp with transformer / power supply — provides nearly monochromatic yellow light.\n2. Newton's Rings optical arrangement — a metal frame holding a glass plate inclined at 45°, positioned above the lens-plate assembly, used to reflect light down onto it.\n3. Plano-convex lens of large radius of curvature — the curved surface in contact with the glass plate creates the air film.\n4. Optically flat plane glass plate — forms the lower boundary of the air film.\n5. Travelling microscope fitted with a vernier scale — used to precisely measure ring diameters.\n6. Magnifying lens — used to help locate the central dark spot before beginning measurements.\n7. Spherometer — used to independently measure the radius of curvature (R) of the lens, if not already provided.\n8. Lens cleaning tissue — for keeping the lens and plate free of dust, which can distort the ring pattern.",
+  "keywords": ["apparatus", "equipment", "sodium lamp", "travelling microscope", "spherometer", "plano-convex lens", "glass plate", "magnifying lens", "materials required"],
+  "related_topics": ["theory", "procedure", "principle"]
+}
